@@ -47,10 +47,61 @@ cargo run -p ch01_hello_world
 ## output
 
 ```
-rust-by-example-practice cargo run ch01_hello_world
-   Compiling ch01_hello_world v0.1.0 (/Users/xichengbot/rustProjects/rust-by-example-practice/ch01_hello_world)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.23s
+cargo run ch01_hello_world
+warning: field `0` is never read
+  --> ch01_hello_world/src/main.rs:25:13
+   |
+25 | struct Deep(Structure);
+   |        ---- ^^^^^^^^^
+   |        |
+   |        field in this struct
+   |
+   = help: consider removing this field
+   = note: `Deep` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: fields `name` and `age` are never read
+  --> ch01_hello_world/src/main.rs:91:5
+   |
+90 | struct Person<'a> {
+   |        ------ fields in this struct
+91 |     name: &'a str,
+   |     ^^^^
+92 |     age: u8
+   |     ^^^
+   |
+   = note: `Person` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: `ch01_hello_world` (bin "ch01_hello_world") generated 2 warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
      Running `target/debug/ch01_hello_world ch01_hello_world`
 Hello, world!
 I'm a Rustacean!!
+365 days
+Alice, this is Bob. Bob, this is Alice
+the quick brown fox jumps over the lazy dog
+Base 10:               69420
+Base 2 (binary):       10000111100101100
+Base 8 (octal):        207454
+Base 16 (hexadecimal): 10f2c
+    1
+00001
+10000
+00001
+10000000000000000000
+My name is Bond, james Bond
+  1.2
+Now Structure(3) will print!
+Display: 3
+Now Deep(Structure(7)) will print!
+Person {
+    name: "Peter",
+    age: 27,
+}
+```
+
+## generate docs
+
+```
+ cargo doc --no-deps --open
 ```
