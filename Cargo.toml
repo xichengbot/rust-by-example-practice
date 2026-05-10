@@ -1,0 +1,7 @@
+[workspace]
+# 告诉 Cargo 哪些文件夹是子项目
+members = [
+    "ch01_hello_world",
+]
+# 共享编译优化配置
+resolver = "2"

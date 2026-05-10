@@ -1,0 +1,28 @@
+# --- 编译产物 ---
+# 所有的编译结果（二进制文件、库文件、中间产物）都存在这里
+/target
+
+# --- IDE 与 工具配置 ---
+# VS Code 配置（如果你想共享工作区设置，可以取消忽略某些文件）
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (RustRover / IntelliJ)
+.idea/
+*.iml
+
+# macOS 系统残留
+.DS_Store
+
+# --- 依赖锁定文件 ---
+# 对于可执行项目（如练习题），通常建议提交 Cargo.lock 以保证环境一致性。
+# 如果你以后开发的是供他人引用的库（Library），则通常忽略 Cargo.lock。
+# 这里建议保留，不要在 .gitignore 中忽略它。
+
+# --- 备份与临时文件 ---
+*.rs.bk
+*.swp
+node_modules/
