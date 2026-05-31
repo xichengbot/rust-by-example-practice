@@ -5,3 +5,95 @@ version = 4
 [[package]]
 name = "ch01_hello_world"
 version = "0.1.0"
+
+[[package]]
+name = "ch02_primitives"
+version = "0.1.0"
+
+[[package]]
+name = "ch03_custom_types"
+version = "0.1.0"
+
+[[package]]
+name = "ch04_variable_bindings"
+version = "0.1.0"
+
+[[package]]
+name = "ch05_types"
+version = "0.1.0"
+
+[[package]]
+name = "ch06_conversion"
+version = "0.1.0"
+
+[[package]]
+name = "ch07_expressions"
+version = "0.1.0"
+
+[[package]]
+name = "ch08_flow_control"
+version = "0.1.0"
+
+[[package]]
+name = "ch09_functions"
+version = "0.1.0"
+
+[[package]]
+name = "ch10_modules"
+version = "0.1.0"
+
+[[package]]
+name = "ch11_crates"
+version = "0.1.0"
+
+[[package]]
+name = "ch12_cargo"
+version = "0.1.0"
+
+[[package]]
+name = "ch13_attributes"
+version = "0.1.0"
+
+[[package]]
+name = "ch14_generics"
+version = "0.1.0"
+
+[[package]]
+name = "ch15_scoping_rules"
+version = "0.1.0"
+
+[[package]]
+name = "ch16_traits"
+version = "0.1.0"
+
+[[package]]
+name = "ch17_macros"
+version = "0.1.0"
+
+[[package]]
+name = "ch18_error_handling"
+version = "0.1.0"
+
+[[package]]
+name = "ch19_std_library_types"
+version = "0.1.0"
+
+[[package]]
+name = "ch20_std_misc"
+version = "0.1.0"
+
+[[package]]
+name = "ch21_testing"
+version = "0.1.0"
+
+[[package]]
+name = "ch22_unsafe_operations"
+version = "0.1.0"
+
+[[package]]
+name = "ch23_compatibility"
+version = "0.1.0"
+
+[[package]]
+name = "ch24_meta"
+version = "0.1.0"

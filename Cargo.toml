@@ -1,7 +1,7 @@
 [workspace]
 # 告诉 Cargo 哪些文件夹是子项目
 members = [
-    "ch01_hello_world",
+    "ch01_hello_world", "ch02_primitives", "ch03_custom_types", "ch04_variable_bindings", "ch05_types", "ch06_conversion", "ch07_expressions", "ch08_flow_control", "ch09_functions", "ch10_modules", "ch11_crates", "ch12_cargo", "ch13_attributes", "ch14_generics", "ch15_scoping_rules", "ch16_traits", "ch17_macros", "ch18_error_handling", "ch19_std_library_types", "ch20_std_misc", "ch21_testing", "ch22_unsafe_operations", "ch23_compatibility", "ch24_meta",
 ]
 # 共享编译优化配置
 resolver = "2"

@@ -82,6 +82,16 @@ fn main() {
 
     // Pretty print
     println!("{:#?}", peter);
+    let a = "中国";
+    let b = "chinese";
+    println!("字符串a的长度：{}，字符串b的长度：{}", a.len(), b.len());
+
+    let mut s = String::from("Hello rust!");
+    s.insert(5, ',');
+    println!("插入字符 insert() -> {}", s);
+    s.insert_str(6, " I like");
+    println!("插入字符串 insert_str() -> {}", s);
+    
 
 }
 
