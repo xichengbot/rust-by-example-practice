@@ -1,3 +1,5 @@
+extern crate foo;
+
 fn main() {
-    println!("Hello, world!");
+    foo::r#try();
 }

@@ -152,3 +152,27 @@ vec1 的第一个元素是：1
 矩形面积：12
 正在销毁 Pair(1, 2)
 ```
+
+#### https://doc.rust-lang.org/rust-by-example/zh/fn/hof.html
+
+```
+ *  正在执行任务: cargo run --package ch09_functions --bin 3_hof
+
+   Compiling ch09_functions v0.1.0 (/Users/xichengbot/rustProjects/rust-by-example-practice/ch09_functions)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.34s
+     Running `target/debug/3_hof`
+找出所有平方为奇数且小于 1000 的数字之和
+命令式风格：256
+函数式风格：256
+```
+
+#### https://doc.rust-lang.org/rust-by-example/zh/fn/diverging.html
+
+```
+ *  正在执行任务: cargo run --package ch09_functions --bin 4_diverging
+
+   Compiling ch09_functions v0.1.0 (/Users/xichengbot/rustProjects/rust-by-example-practice/ch09_functions)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.26s
+     Running `target/debug/4_diverging`
+9 以下（不包括 9）的奇数之和：16
+```
